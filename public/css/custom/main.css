@@ -1,0 +1,335 @@
+@media screen and (max-width: 200px) {
+    .main-screen-user-admin {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (max-width: 270px) {
+    .custom-new-user-register{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 240px) {
+    .user-login .form-control {
+      font-size: 12px;
+    }
+  }
+
+@media screen and (max-width: 212px) {
+  /* Hide placeholder */
+  .user-login  .form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color: transparent;
+}
+.user-login  .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: transparent;
+}
+.user-login  .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: transparent;
+}
+.user-login  .form-control :-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: transparent;
+}
+}
+
+
+@media screen and (max-width: 270px) {
+    #register-tab{
+        font-size: 15px; /* Adjust the font size as needed */
+        padding: 5px 10px; /* Adjust the padding as needed */
+    }
+}
+
+@media screen and (max-width: 182px) {
+    .custom-new-user-register a{
+      font-size: 12px;
+    }
+
+    .custom-new-user-register .btn {
+        padding: 5px 10px;
+      }
+
+    .user-login button{
+        font-size: 12px;
+      }
+
+      .user-login btn{
+        font-size: 12px;
+      }
+
+      .user-login label{
+        font-size: 12px;
+      }
+
+  }
+
+  @media screen and (max-width: 300px) {
+    .custom-login-admin{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 175px) {
+
+    .custom-login-admin button{
+        font-size: 12px;
+      }
+
+    .custom-login-admin btn{
+        font-size: 12px;
+      }
+
+}
+
+@media screen and (max-width: 167px) {
+
+    .user-login button{
+        font-size: 8px;
+    }
+
+    .user-login btn{
+        font-size: 8px;
+      }
+  }
+
+
+@media screen and (max-width: 192px) {
+#anchortag{
+    font-size: 10px;
+    margin-left: 0;
+    padding: 0;
+}
+
+#confirmanchortag{
+    font-size: 10px;
+    margin-left: 0;
+    padding: 0;
+}
+}
+
+
+@media screen and (max-width: 176px) {
+    .developerinfo p{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    .custom-user-home{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* @media screen and (max-width: 240px) {
+    #exampleModalLabelDeveloper{
+        font-size: 15px !important;     
+    }
+  } */
+
+  @media screen and (max-width: 240px) {
+    #developer_tag_h4{
+        font-size: 15px !important;    
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    .custom_prev_next{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 200px) {
+.step > h2{
+    font-size:20px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+}
+
+
+
+
+  @media screen and (max-width: 240px) {
+    .step .label_institute {
+        font-size: 8px;
+      }
+}
+@media screen and (max-width: 185px) {
+    .step .form-control::-webkit-input-placeholder { /* WebKit browsers */
+    font-size:10px;
+  }
+  .step .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size:10px;
+  }
+  .step .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size:10px;
+  }
+  .step  .form-control :-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size:10px;
+  }
+
+  .step label {
+    font-size: 10px;
+  }
+
+  .step .label_institute {
+    font-size: 8px;
+  }
+  } 
+
+
+@media screen and (max-width: 325px) {
+    .custom-forgot-password .card-body .card-text{
+    display: none;
+   }
+   .custom-forgot-password .card-body{
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
+   }
+
+   .custom-forgot-password .card-header{
+    font-size: 15px;
+   }
+
+   .custom-forgot-password button{
+    font-size: 15px;
+   }
+}
+
+@media screen and (max-width: 180px) {
+
+   .custom-forgot-password .card-header{
+    font-size: 10px;
+   }
+
+   .custom-forgot-password button{
+    font-size: 10px;
+   }
+}
+
+    
+.footer-custom
+{
+    /* border-top: 0.0625rem solid gray; */
+    /*0.0625 rem = 1 px if default font size = 16px; */
+    background-color: #333;
+}
+
+@media screen and (max-width: 300px) {
+    .footer-custom p{
+        font-size: 10px;
+    }
+}
+
+/* .footer-custom p
+{
+   font-size: 1rem;
+} */
+
+.sticky
+{
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+
+/* .custommainscreen
+{
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    background: #DFD297;
+    height: calc(100vh - 11.0625rem);
+    height:510px;
+} */
+
+
+ /* Default style for all devices */
+ /* .custommainscreen{
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    background: #DFD297; 
+  height:500px;
+  } */
+
+
+    /* @media screen and (max-width: 600px) {
+        .custommainscreen {
+          height: 150px;
+        }
+      }
+      
+     @media screen and (max-width: 450px) {
+        .custommainscreen {
+          height: 100px;
+        }
+      }  */
+
+
+.customjumbo {
+    background: #50d07d;
+    padding: 1rem 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3135rem;
+     /*0.3125 rem = 5 px if default font size = 16px; */
+    border-radius: .5rem;
+}
+
+.customjumbo p {
+    line-height: 0.625rem;
+    /*0.625 rem = 10 px if default font size = 16px; */
+    color: #651287;
+}
+
+@media screen and (max-width: 308px) {
+    .customjumbo p {
+        line-height: 1rem;
+        font-size:10px;
+        /*0.625 rem = 10 px if default font size = 16px; */
+    }   
+}
+
+@media screen and (max-width: 215px) {
+    .customjumbo h1 {
+        font-size:20px;
+    }   
+}
+
+@media screen and (max-width: 160px) {
+    .customjumbo h1 {
+        font-size:15px;
+    }   
+}
+
+
+.navbar{
+    margin-bottom:5px;
+}
+
+.foot {
+    background: #d3d3d3;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.modalphoto{
+    margin-left: auto;
+    margin-right: auto;
+}

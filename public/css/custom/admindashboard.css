@@ -1,0 +1,352 @@
+:root {
+      /* css custom variable doesnot work in media queries */
+    /* --sm: 480px;
+    --md: 768px;
+    --lg: 1024px;
+    --xl: 1200px;
+    --xxl: 1400px; */
+    /* Background Colour */
+    --main-bg: #2a3447;
+    --soft-bg: #384256;
+    --dark-bg: #222b3c;
+    /* Text Colour */
+    --main-color: white;
+    --soft-color: #ddd;
+    --dark-color: #2a3447;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.main{
+    font-family: "Inter", sans-serif;
+    background-color: var(--main-bg);
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+      overflow-x: scroll;
+    }
+    .caption-top {
+      caption-side: top;
+      text-align: left;
+      width: 100%;
+  }
+  .caption-top button{
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem; 
+  }
+  }
+
+  @media screen and (max-width: 390px) {
+    .caption-top caption{
+      font-size:15px;
+    }
+
+    .caption-top button{
+      padding: 1rem 0.3rem;
+      font-size: 0.6rem;
+      margin-top:5px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+  .caption-top button{
+width:120px;
+  }
+}
+
+
+
+.contain{
+    display:flex;
+}
+
+
+
+.menu_container {
+    width: 250px;
+    padding: 5px 20px;
+    border-right: 2px solid var(--soft-bg);
+}
+
+@media screen and (max-width: 1024px) {
+    .menu_container {
+      width: max-content;
+  }
+}
+
+
+
+
+  /* Navbar */
+
+  .navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar .institute_name h3 {
+    font-size:20px;
+  }
+
+  @media screen and (max-width: 1055px) {
+    .navbar .institute_name h3{
+      font-size: 10px;
+    }
+  }
+ 
+  @media screen and (max-width: 780px) {
+    .navbar .institute_name h3{
+      display:none;
+    }
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+  }
+  
+  .navbar .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .navbar .icons .icon {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar .icons .icon {
+      display: none !important;
+  }
+  .navbar .icons .notification {
+    display: none !important;
+}
+
+.navbar .icons .user .name {
+  display: none !important;
+}
+  
+  }
+
+  .navbar .icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar .icons .notification {
+    position: relative;
+  }
+  
+  .navbar .icons .notification span {
+    background-color: red;
+    color: white;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .navbar .icons .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+ 
+  
+  .navbar .icons .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+/* Menu */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent (removes default blue color) */
+}
+
+.menu .item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.menu .item .title {
+  font-size: 12px;
+  font-weight: 200;
+  color: var(--soft-color);
+ /* Assuming $soft-color is a variable, replace it with the actual color value */
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+.menu .item .title {
+    display: none;
+  }
+}
+
+.menu .item .listItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu .item .listItem:hover {
+  background-color: var(--soft-bg); /* Assuming $soft-bg is a variable, replace it with the actual background color value */
+}
+
+@media screen and (max-width: 1024px) {
+.menu .item .listItem .listItemTitle {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 250px) {
+  .custom-anchor-tag{
+      font-size: 10px;
+      margin-left: 0;
+      padding: 0;
+  }
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.footer span:first-child {
+  font-weight: bold;
+  /* margin-right: auto; */
+}
+
+.footer span:last-child {
+  font-size: 14px;
+  /* text-align: center; */
+  /* margin-right: auto; */
+}
+
+
+
+/* Content */
+  
+.content_container {
+  padding: 5px 20px;
+  width: 100%;
+}
+
+/* @media screen and (max-width: 660px) {
+
+  .table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+} */
+
+.informations{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.totalstudents, .totalsubjects, .totaldepartment, .totalfaculties{
+  display:flex;
+  gap:10px;
+  padding:10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* .totalstudents{
+  background-color: yellow;
+}
+
+.totaldepartment{
+  background-color: green;
+}
+
+.totalfaculties{
+  background-color: purple;
+}
+
+.totalsubjects{
+  background-color: gray;
+} */
+
+
+.totalstudents .items{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  font-size: 20px;
+}
+
+.totalsubjects .items{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  font-size: 20px;
+}
+
+.totaldepartment .items{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  font-size: 20px;
+}
+
+.totalfaculties .items{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  font-size: 20px;
+}
+
+
+.totalstudents .items h4:last-child,
+.totalsubjects .items h4:last-child,
+.totaldepartment .items h4:last-child,
+.totalfaculties .items h4:last-child {
+text-align: center;
+  /* Other styles go here */
+}
+
+.form-check-input:checked {
+  background-color: #b3d4fc; /* Change this color to your desired color */
+
+}
+
